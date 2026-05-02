@@ -12,7 +12,7 @@ on:
         required: true
         type: string
       delete_old_archives:
-        description: 'پاک کردن فایل‌های قبلی (اگه تیک بزنی فایل‌های آرشیو قدیمی موجود در مخزن حذف میشه)'
+        description: 'پاک کردن فایل‌های قبلی (در صورت تیک زدن، اگه فایل‌های قدیمی در مخزن باشن اتوماتیک حذف میشن)'
         required: false
         type: boolean
         default: false  
